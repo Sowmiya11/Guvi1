@@ -9,4 +9,5 @@ class VowNum
   }
   else 
    System.out.println("number");
+  scan.close();
 }
