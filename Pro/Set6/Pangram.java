@@ -27,9 +27,9 @@ class Pangram
 	    Sacnner s=new Scanner(System.in);
 		String str = s.nextLine();
 		if (checkPangram(str) == true)
-			System.out.print(str + " is a pangram.");
+			System.out.print("yes");
 		else
-			System.out.print(str+ " is not a pangram.");
+			System.out.print("no");
 
 	}
 }
